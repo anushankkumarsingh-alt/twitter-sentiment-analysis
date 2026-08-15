@@ -131,19 +131,6 @@ Sentiment: Negative
  
 - The overall test accuracy of 85.46% demonstrates that the model can effectively classify sentiment in the provided dataset.
 
-## ▶️ How to Run
-1. Clone the repository
-git clone
-https://github.com/anushankkumarsingh-alt-overview/twitter-sentiment-analysis.git
-2. Install dependencies
-pip install -r requirements.txt
-3. Add the dataset
-Place:
-Twitter_Data.csv
-in the project directory.
-4. Run the Python program
-python sentiment_analysis.py
-
 ## 🔮 Future Improvements
 - Try advanced NLP models such as BERT
 - Add a web interface using Streamlit
