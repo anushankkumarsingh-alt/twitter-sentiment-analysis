@@ -87,6 +87,14 @@ The Logistic Regression model achieved:
 
 # 🎯 Test Accuracy: 85.46%
 
+### Result
+
+![Model Result](results.png)
+
+### Confusion Matrix
+
+![Twitter Sentiment Analysis Confusion Matrix](Confusion_matrix.png)
+
 Classification Report
 
 |Sentiment| Precision| Recall| F1-Score|
