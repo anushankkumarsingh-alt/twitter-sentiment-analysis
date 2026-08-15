@@ -81,9 +81,12 @@ Evaluation
 Sentiment Classification
 ```
 
-📊 Model Performance
+## 📊 Model Performance
+
 The Logistic Regression model achieved:
-🎯 Test Accuracy: 85.46%
+
+# 🎯 Test Accuracy: 85.46%
+
 Classification Report
 
 |Sentiment| Precision| Recall| F1-Score|
@@ -94,33 +97,44 @@ Classification Report
 
 The model was evaluated on 32,593 test samples.
 
-🧠 Model Details
-TF-IDF
-TF-IDF (Term Frequency–Inverse Document Frequency) converts text into numerical features that the machine learning model can understand.
-The project uses:
-Maximum 10,000 features
-Unigrams and bigrams
-English stop-word removal
-Logistic Regression
-Logistic Regression is used as the classification algorithm to predict one of the three sentiment classes.
+--
 
-💬 Example
+## 🧠 Model Details
+
+- TF-IDF
+- TF-IDF (Term Frequency–Inverse Document Frequency) converts text into numerical features that the machine learning model can understand.
+
+The project uses:
+
+-Maximum 10,000 features
+-Unigrams and bigrams
+-English stop-word removal
+# Logistic Regression
+- Logistic Regression is used as the classification algorithm to predict one of the three sentiment classes.
+
+## 💬 Example
+
 The trained model can classify custom text such as:
 "I absolutely loved this movie!"
+
 Possible prediction:
 Sentiment: Positive
+
 Another example:
 "This service was terrible."
+
 Possible prediction:
 Sentiment: Negative
 
-📈 Results
-The confusion matrix shows that the model performs particularly well at identifying Neutral and Positive tweets.
-The overall test accuracy of 85.46% demonstrates that the model can effectively classify sentiment in the provided dataset.
+## 📈 Results
+- The confusion matrix shows that the model performs particularly well at identifying Neutral and Positive tweets.
+ 
+- The overall test accuracy of 85.46% demonstrates that the model can effectively classify sentiment in the provided dataset.
 
-▶️ How to Run
+## ▶️ How to Run
 1. Clone the repository
-git clone https://github.com/anushankkumarsingh-alt-overview/twitter-sentiment-analysis.git
+git clone
+https://github.com/anushankkumarsingh-alt-overview/twitter-sentiment-analysis.git
 2. Install dependencies
 pip install -r requirements.txt
 3. Add the dataset
@@ -130,17 +144,17 @@ in the project directory.
 4. Run the Python program
 python sentiment_analysis.py
 
-🔮 Future Improvements
-Try advanced NLP models such as BERT
-Add a web interface using Streamlit
-Support real-time tweet analysis
-Improve text preprocessing
-Compare multiple machine learning algorithms
-Deploy the model as a web application
+## 🔮 Future Improvements
+- Try advanced NLP models such as BERT
+- Add a web interface using Streamlit
+- Support real-time tweet analysis
+- Improve text preprocessing
+- Compare multiple machine learning algorithms
+- Deploy the model as a web application
 
-👩‍💻 Author
+### 👩‍💻 Author
 Anushank Kumar Singh
 Machine Learning / Python Project
 
-⭐ If you found this project useful, consider giving the repository a star!
+# ⭐ If you found this project useful, consider giving the repository a star!
 
